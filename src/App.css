@@ -1,1 +1,65 @@
 /* Other rules */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.content {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+h1 {
+  font-size: 48px;
+  margin: 20px 0;
+}
+
+form {
+  width: 35%;
+}
+
+input {
+  font-size: 20px;
+  text-align: center;
+  background-color: #f8efef;
+  width: 100%;
+  height: 50px;
+}
+
+.line {
+  margin-bottom: 20px;
+  padding: 10px;
+  width: 60%;
+  font-size: 25px;
+  background-color: #f8efef;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+footer {
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+
+footer a {
+  text-decoration-line: none;
+  color: black;
+  font-weight: 700;
+}
